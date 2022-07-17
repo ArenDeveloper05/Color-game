@@ -1,0 +1,184 @@
+body{
+    background-color: wheat;
+    background-image: url(./color\ game\ background.jpg);
+}
+h1{
+    text-align: center;
+    background-color: rgb(255, 138, 13);
+    color: #c60a03;
+}
+.pointsDiv{
+    width: 100px;
+    height: 90px;
+    border-radius: 30px;
+    background-color: orangered;
+    color: #000000;
+    position: absolute;
+    left: 150px;
+    box-shadow: 1px 1px 10px 1px black;
+    display: flex;
+    align-items: center;     
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+}
+.bestScore{
+    width: 130px;
+    height: 90px;
+    border-radius: 30px;
+    background-color: #ef0909;
+    color: #000000;
+    position: absolute;
+    left: 5px;
+    box-shadow: 1px 1px 10px 1px black;
+    display: flex;
+    align-items: center;     
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+}
+.points{
+    margin: 10px;
+}
+aside{
+    width: 240px;
+    background-color:#ff000085;
+    padding: 20px;
+    border-radius: 30px;
+    color: #adff2f;
+    font-family: cursive;
+    position: absolute;
+    top: 300px;
+}
+aside p {
+    font-size: 20px;
+    color: #ffc800;
+}
+.taracq{
+    width: 400px;
+    height: 400px;
+    border: 20px solid red;
+    border-left-color: yellow;
+    border-top-color: red;
+    border-bottom-color: blueviolet;
+    border-right-color: greenyellow;
+    background-color: antiquewhite;
+    
+    box-shadow: 5px 5px 20px 5px grey; 
+    margin-bottom: 200px;
+    position: absolute;
+    left: 35%;
+}
+.SLAQ{
+    display: flex;
+    width: max-content;
+    align-items: center;
+    animation: slaq 2.5s  infinite linear ;
+    transform-origin: left;
+    position: absolute;
+    top: 190px;
+    left: 50%;
+}
+.slaq{
+    width: 150px;
+    height: 15px;
+    /* background-color:yellow; */
+    box-shadow: 1px 1px 2px 1px;
+    border-radius: 10px;
+}
+.slaqi-poch{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 0 15px 30px;
+    border-color: transparent transparent transparent #0d0d0d;
+    
+}
+.btn{
+    width: 100px;
+    height: 80px;
+    background-color: red;
+    margin-left: 950px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 7px 7px 10px 1px grey;
+    color: rgb(208, 255, 0);
+    font-family: cursive;
+    font-size: 18px;
+    position: absolute;
+}
+.againDiv{
+    position: absolute;
+    left: 46%;
+    top: 210px;
+}
+.players{
+    width: 320px;
+    height: 400px;
+    position: absolute;
+    top: 32%;
+    left: 73%;
+    box-shadow: 1px 1px 10px 1px;
+    border: 10px solid rgb(220, 78, 12);
+    overflow: auto;
+    background-color:darkviolet;
+}
+.player{
+    width: 270px;
+    min-width: 60px;
+    border-radius: 30px;
+    background-color:#b871c4;
+    margin-top: 10px;
+    margin-left: 4px;
+    padding: 10px;
+    box-shadow: 1px 1px 8px 1px;
+    font-size: 20pxs;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.player:hover{
+    opacity: 0.8;
+}
+.search-input{
+    position: absolute;
+    left: 78%;
+    top: 25%;
+}
+.againDiv p{
+    font-size: 30px;
+    color: black;
+}
+.fa-reply-all{
+    font-size: 100px;  
+}
+.btn:hover{
+    background-color: orange;
+    color: red;
+}
+.kub{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.kub1{
+    background-color: rgb(163, 243, 83);
+}
+.kub2{
+    background-color: rgb(255, 200, 0);
+}
+.kub3{
+    background-color: rgb(0, 255, 149);
+}
+.kub4{
+    background-color: rgb(230, 59, 249);
+}
+
+@keyframes slaq{
+    0%{ 
+        transform: rotate(0deg);
+    }
+    
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
